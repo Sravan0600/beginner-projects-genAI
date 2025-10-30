@@ -18,8 +18,9 @@ Vector Storage and Retrieval:
 
 Technology Used: FAISS (Facebook AI Similarity Search)
 Role: The embeddings generated from the text chunks are stored in a FAISS vector store. FAISS enables efficient similarity search, allowing the application to quickly retrieve the most relevant text chunks based on user queries.
-Query Processing:
 
+
+Query Processing:
 Technology Used: LangChain
 Role: LangChain acts as a framework that connects the different components of the application. It simplifies the process of handling embeddings and performing similarity searches. When a user submits a query, LangChain uses the embeddings from FAISS to find and return the most relevant results.
 Workflow Overview
